@@ -6,12 +6,14 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { PaisComponent } from './pais/pais.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    routingComponents
+    routingComponents,
+    PaisComponent
   ],
   imports: [
     BrowserModule,

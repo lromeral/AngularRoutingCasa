@@ -11,11 +11,10 @@ import { Observable } from 'rxjs';
 })
 export class PaisesComponent implements OnInit, OnDestroy {
 
-  constructor(private ruta: ActivatedRoute, private http: HttpClient) {
+  constructor(private http: HttpClient) {
 
   }
 
-  queryPais: string = "";
   paises: any[] = [];
 
   ngOnInit(): void {
